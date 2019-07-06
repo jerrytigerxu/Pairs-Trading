@@ -1,15 +1,6 @@
 
 # What is Pair Trading?
 
-Look at this. [show picture of tickers]. It's beautiful, isn't it?
-
--Unfortunately for you, all you see is a bunch of squiggly lines that have no real coherent pattern. 
-
-
-
-There are a lot of concepts to explain to maximize your understanding of this topic, so enjoy the ride.
-
-At the most fundamental, simplest level, pair trading is just taking advantage of patterns in the movements of stock prices to get some profit. It's funny, that's exactly what the general gist of trading on the market is!
 
 ## Agenda
 

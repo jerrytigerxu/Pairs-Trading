@@ -78,7 +78,7 @@ plt.show()
 ```
 
 
-![png](Nailing%20the%20Basics%20of%20Pairs%20Trading_files/Nailing%20the%20Basics%20of%20Pairs%20Trading_11_0.png)
+![png](images/Nailing%20the%20Basics%20of%20Pairs%20Trading_11_0.png)
 
 
 For the sake of the illustration and intuition, we will generate Y to have a clear link with X, so the price of Y should very in a similar way to X. What we can do is just take X and shift it up slightly and add some noise from a normal distribution.
@@ -95,7 +95,7 @@ plt.show()
 ```
 
 
-![png](Nailing%20the%20Basics%20of%20Pairs%20Trading_files/Nailing%20the%20Basics%20of%20Pairs%20Trading_13_0.png)
+![png](images/Nailing%20the%20Basics%20of%20Pairs%20Trading_13_0.png)
 
 
 ## Illustrating Cointegration
@@ -128,7 +128,7 @@ plt.show()
 ```
 
 
-![png](Nailing%20the%20Basics%20of%20Pairs%20Trading_files/Nailing%20the%20Basics%20of%20Pairs%20Trading_15_0.png)
+![png](images/Nailing%20the%20Basics%20of%20Pairs%20Trading_15_0.png)
 
 
 Here is a plot of the ratio between the two two series. Notice how it tends to revert back to the mean? This is a clear sign of cointegration.
@@ -170,7 +170,7 @@ print('Cointegration test p-value: ' + str(pvalue))
 ```
 
 
-![png](Nailing%20the%20Basics%20of%20Pairs%20Trading_files/Nailing%20the%20Basics%20of%20Pairs%20Trading_20_0.png)
+![png](images/Nailing%20the%20Basics%20of%20Pairs%20Trading_20_0.png)
 
 
     Correlation: 0.9931343801275687
@@ -207,7 +207,7 @@ print('Cointegration test p-value: ' + str(pvalue))
 ```
 
 
-![png](Nailing%20the%20Basics%20of%20Pairs%20Trading_files/Nailing%20the%20Basics%20of%20Pairs%20Trading_22_0.png)
+![png](images/Nailing%20the%20Basics%20of%20Pairs%20Trading_22_0.png)
 
 
     Correlation: -0.05417844733916934
@@ -464,7 +464,7 @@ print(pairs)
 ```
 
 
-![png](Nailing%20the%20Basics%20of%20Pairs%20Trading_files/Nailing%20the%20Basics%20of%20Pairs%20Trading_44_0.png)
+![png](images/Nailing%20the%20Basics%20of%20Pairs%20Trading_44_0.png)
 
 
     [('ADBE', 'MSFT'), ('SYMC', 'EBAY'), ('JNPR', 'AMD'), ('JNPR', 'IBM')]
@@ -490,7 +490,7 @@ plt.show()
 
 
 
-![png](Nailing%20the%20Basics%20of%20Pairs%20Trading_files/Nailing%20the%20Basics%20of%20Pairs%20Trading_46_1.png)
+![png](images/Nailing%20the%20Basics%20of%20Pairs%20Trading_46_1.png)
 
 
 
@@ -511,7 +511,7 @@ plt.show()
 
 
 
-![png](Nailing%20the%20Basics%20of%20Pairs%20Trading_files/Nailing%20the%20Basics%20of%20Pairs%20Trading_47_1.png)
+![png](images/Nailing%20the%20Basics%20of%20Pairs%20Trading_47_1.png)
 
 
 
@@ -532,7 +532,7 @@ plt.show()
 
 
 
-![png](Nailing%20the%20Basics%20of%20Pairs%20Trading_files/Nailing%20the%20Basics%20of%20Pairs%20Trading_48_1.png)
+![png](images/Nailing%20the%20Basics%20of%20Pairs%20Trading_48_1.png)
 
 
 
@@ -553,7 +553,7 @@ plt.show()
 
 
 
-![png](Nailing%20the%20Basics%20of%20Pairs%20Trading_files/Nailing%20the%20Basics%20of%20Pairs%20Trading_49_1.png)
+![png](images/Nailing%20the%20Basics%20of%20Pairs%20Trading_49_1.png)
 
 
 It appears that our first pair, Adobe and Microsoft, has a plot that moves around the mean in the most stable way. Let's stick with this pair. 
@@ -580,7 +580,7 @@ plt.show()
 ```
 
 
-![png](Nailing%20the%20Basics%20of%20Pairs%20Trading_files/Nailing%20the%20Basics%20of%20Pairs%20Trading_52_0.png)
+![png](images/Nailing%20the%20Basics%20of%20Pairs%20Trading_52_0.png)
 
 
 By setting two other lines placed at the z-scores of 1 and -1, we can clearly see that for the most part, any big divergences from the mean eventually converge back. This is exactly what we want for pair trading.
@@ -659,7 +659,7 @@ plt.show()
 ```
 
 
-![png](Nailing%20the%20Basics%20of%20Pairs%20Trading_files/Nailing%20the%20Basics%20of%20Pairs%20Trading_61_0.png)
+![png](images/Nailing%20the%20Basics%20of%20Pairs%20Trading_61_0.png)
 
 
 That's pretty. And enlightening! Let's also take a look at the moving average z-scores.
@@ -676,7 +676,7 @@ plt.show()
 ```
 
 
-![png](Nailing%20the%20Basics%20of%20Pairs%20Trading_files/Nailing%20the%20Basics%20of%20Pairs%20Trading_63_0.png)
+![png](images/Nailing%20the%20Basics%20of%20Pairs%20Trading_63_0.png)
 
 
 ### Creating a Model
@@ -712,7 +712,7 @@ plt.show()
 ```
 
 
-![png](Nailing%20the%20Basics%20of%20Pairs%20Trading_files/Nailing%20the%20Basics%20of%20Pairs%20Trading_66_0.png)
+![png](images/Nailing%20the%20Basics%20of%20Pairs%20Trading_66_0.png)
 
 
 So these are the trading signals for the ratios up to around 2009. 
@@ -748,7 +748,7 @@ plt.show()
 ```
 
 
-![png](Nailing%20the%20Basics%20of%20Pairs%20Trading_files/Nailing%20the%20Basics%20of%20Pairs%20Trading_68_0.png)
+![png](images/Nailing%20the%20Basics%20of%20Pairs%20Trading_68_0.png)
 
 
 **BOOM! How 'bout dat?** That is beautiful. Now we can clearly see when we should buy or sell on the respective stocks.
